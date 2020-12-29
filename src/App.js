@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { ThemeProvider } from "@material-ui/core/styles";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import { theme } from "./muiTheme";
+import { useStyles } from "./appStyle";
+import Home from "./Pages/Home";
+import About from "./components/About";
 
 function App() {
+  const classes = useStyles();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline/>
+      <div className={classes.appWrapper}>
+        <div className={classes.left}>
+          <div className={classes.spine} />
+        </div>
+        <div className={classes.right}>
+          {/*! Components go Here: */}
+          <Home />
+          <About />
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 
