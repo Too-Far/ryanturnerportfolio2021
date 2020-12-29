@@ -4,6 +4,9 @@ export const useStyles = makeStyles({
     display: "flex",
     backgroundColor: "black",
   },
+  appBar: {
+    width: "100%",
+  },
   left: {
     position: "left",
     width: "20%",
