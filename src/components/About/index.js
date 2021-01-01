@@ -19,15 +19,20 @@ function About(props) {
             A Little Bit of My Story
           </Typography>
           <Typography variant="p" className={classes.text}>
-            Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast
-            yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin
-            grog yardarm hempen halter furl. Swab barque interloper chantey
-            doubloon starboard grog black jack gangway rutters. Deadlights jack
-            lad schooner scallywag dance the hempen jig carouser broadside cable
-            strike colors. Bring a spring upon her cable holystone blow the man
-            down spanker Shiver me timbers to go on account lookout wherry
-            doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm
-            spyglass sheet transom heave to.
+            I am a creative problem solver with years of experience doing just
+            that. I have spent the past 20+ years working in the field of
+            Emergency Medicine. Everything from combat medic, to paramedic, to
+            flight nurse. <br />
+            <br />
+            In 2018 I decided that I wanted to challenge myself in a different
+            way. I took my first online HTML course, and as they say, the rest
+            is history.
+            <br />
+            <br />I have spent the last two years learning and honing my skills.
+            I have worked with multiple start-ups, open source projects and
+            built countless apps. The one thing that I have learned on this
+            journey is that I love to find a problem, then apply sound logic to
+            solve that problem.
           </Typography>
         </div>
       </div>

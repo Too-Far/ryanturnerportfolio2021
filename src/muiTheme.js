@@ -6,10 +6,21 @@ export const theme = createMuiTheme({
       main: "#582ae9",
     },
     secondary: {
-      main: "#FFFFFF",
+      main: "#000000",
     },
   },
   typography: {
     fontFamily: `"Roboto Mono", monotype`,
   },
 });
+
+theme.typography.h2 = {
+  "@media (max-width:600px)": {
+    fontSize: "3rem",
+  },
+};
+theme.typography.h3 = {
+  "@media (max-width:600px)": {
+    fontSize: "2rem",
+  },
+};

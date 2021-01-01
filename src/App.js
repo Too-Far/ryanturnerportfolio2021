@@ -6,6 +6,7 @@ import { useStyles } from "./appStyle";
 import Home from "./Pages/Home";
 import About from "./components/About";
 import AppBar from "./components/AppBar";
+import Projects from "./components/Projects";
 
 function App() {
   const classes = useStyles();
@@ -21,6 +22,7 @@ function App() {
           {/*! Components go Here: */}
           <Home />
           <About />
+          <Projects />
         </div>
       </div>
     </ThemeProvider>

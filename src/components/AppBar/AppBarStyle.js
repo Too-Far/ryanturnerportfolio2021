@@ -13,18 +13,27 @@ export const useStyles = makeStyles({
     width: "95%",
     textAlign: "right",
     paddingRight: "4em",
+    "@media (max-width:600px)": {
+      display: "inline",
+    },
   },
   paper: {
     height: "100%",
     width: "100%",
-    backgroundColor: "black",
+    backgroundColor: "#f5f5f5",
   },
   logo: {
+    marginTop: "1em",
+    marginBottom: "-1.5em",
     height: "50px",
+    "@media (max-width:600px)": {
+      visibility: "hidden",
+      height: "0px",
+    },
   },
   icon: {
     "&:hover": {
-      color: "white",
+      color: "black",
       curser: "pointer",
     },
   },

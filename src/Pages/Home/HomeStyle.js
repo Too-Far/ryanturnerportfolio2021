@@ -4,7 +4,7 @@ export const useStyles = makeStyles({
     display: "flex",
     height: "100vh",
     alignItems: "center",
-    marginBottom: "24em",
+    // marginBottom: "24em",
   },
   inline: {
     display: "flex",

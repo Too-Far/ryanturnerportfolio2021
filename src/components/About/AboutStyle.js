@@ -11,14 +11,19 @@ export const useStyles = makeStyles({
     marginBottom: ".5em",
   },
   text: {
-    color: "#808080",
+    color: "black",
     textAlign: "center",
   },
   photo: {
     width: "70%",
     height: "70%",
     marginRight: "3em",
-    opacity: "0.8",
     borderRadius: "10px",
+    // eslint-disable-next-line
+    ["@media (max-width:780px)"]: {
+      visibility: "hidden",
+      width: "0px",
+      marginRight: "0",
+    },
   },
 });
