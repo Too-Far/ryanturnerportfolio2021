@@ -5,12 +5,15 @@ import { theme } from "./muiTheme";
 import { useStyles } from "./appStyle";
 import Home from "./Pages/Home";
 import About from "./components/About";
+import AppBar from "./components/AppBar";
+import Projects from "./components/Projects";
 
 function App() {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline/>
+      <AppBar />
+      <CssBaseline />
       <div className={classes.appWrapper}>
         <div className={classes.left}>
           <div className={classes.spine} />
@@ -19,6 +22,7 @@ function App() {
           {/*! Components go Here: */}
           <Home />
           <About />
+          <Projects />
         </div>
       </div>
     </ThemeProvider>
