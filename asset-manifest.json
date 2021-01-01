@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ryanturnerportfolio2021/static/css/main.2132ba5b.chunk.css",
-    "main.js": "/ryanturnerportfolio2021/static/js/main.9d7f344b.chunk.js",
-    "main.js.map": "/ryanturnerportfolio2021/static/js/main.9d7f344b.chunk.js.map",
+    "main.js": "/ryanturnerportfolio2021/static/js/main.56e92534.chunk.js",
+    "main.js.map": "/ryanturnerportfolio2021/static/js/main.56e92534.chunk.js.map",
     "runtime-main.js": "/ryanturnerportfolio2021/static/js/runtime-main.329b2951.js",
     "runtime-main.js.map": "/ryanturnerportfolio2021/static/js/runtime-main.329b2951.js.map",
     "static/css/2.2e412779.chunk.css": "/ryanturnerportfolio2021/static/css/2.2e412779.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.2e412779.chunk.css",
     "static/js/2.e9ddc8e4.chunk.js",
     "static/css/main.2132ba5b.chunk.css",
-    "static/js/main.9d7f344b.chunk.js"
+    "static/js/main.56e92534.chunk.js"
   ]
 }
