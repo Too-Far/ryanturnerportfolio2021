@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: too-far.github.io
+Token: 65952ef11c047ded92d0c135ff5ee454666972535e3c83e246001c3293948b94
